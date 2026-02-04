@@ -358,23 +358,23 @@ body {
         border-radius: 15px;
     }
 
-    .content .title h2 {
+    .content .title h3 {
         font-family: 'Dancing Script', cursive;
-        font-size: 2rem;
+        font-size: 1rem;
         color: rgb(181, 12, 17);
         opacity: 0;
         transform: translateY(-40px);
         transition: 2s;
     }
 
-    .warpper:hover .title h2 {
+    .warpper:hover .title h3 {
         opacity: 1;
         transform: translateY(1px);
     }
 
     .content p {
         padding: 21px 40px;
-        font-size: 1rem;
+        font-size: 0.5rem;
         font-family: 'Dancing Script', cursive;
         opacity: 0;
         transition: all 1s;
